@@ -46,8 +46,8 @@ public class Secret {
 
 	}
 
-	// function tests the secret() function and returns true if secret(x+y) = secret(x) secret(y) 
-	// for the giver prime integer array.
+	// function tests the secret() function and returns true if secret(x+y) = secret(x) + secret(y) 
+	// for the given prime integer array.
 	private static boolean testSecret(Integer[] primes) {
 		ArrayList<Integer> passed = new ArrayList<>();
 
@@ -71,7 +71,7 @@ public class Secret {
 
 	public static int secret(int num) {
 
-		//return num % 3; // not attitive function return
+		//return num % 3; // not additive function return
 		return num; // additive function return
 	}
 
