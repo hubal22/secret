@@ -20,3 +20,5 @@ or compile Secret.java and run
 
 the secret function in this source code is additive. You can modify the function by uncommenting the line for 
 non additive test case.
+
+I used java for this solution because this is the primary language I use.
